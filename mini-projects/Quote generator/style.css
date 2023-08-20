@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+#container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    
+}
+#quotes{
+    border: 10px solid burlywood;
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: bisque;
+    color: gray;
+    padding: 0 50px;
+}
+#quotes p, #quotes h3{
+    font-size: 1.5rem;
+}
+@media (max-width:480px) {
+    #quotes p, #quotes h3{
+        font-size: 1rem;
+    }
+}
